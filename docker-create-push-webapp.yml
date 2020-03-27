@@ -12,7 +12,7 @@
     command: docker tag docker-webapp-image sjengg06/docker-webapp-image
 
   - name: Push image on to dockerhub
-    command: docker push deraviyam/docker-webapp-image
+    command: docker push sjengg06/docker-webapp-image
 
   - name: Remove docker images from ansible server
     command: docker rmi docker-webapp-image:latest sjengg06/docker-webapp-image
